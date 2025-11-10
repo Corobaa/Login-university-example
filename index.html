@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Simples</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <img src="UJC_Logo.svg" alt="UJC" width="200" height="150">
+<h1>Sistema de Cadastro de estudantes da Universidade Joaquim Chissano</h1>
+<form action=""method="post">
+    <label for="username">Digite o seu nome completo:</label>
+    <input type="text" id="username" name="username" placeholder="Nome e Apelido" required><br><br>
+    
+     <label for="course">O seu curso</label>
+    <select name="curso" id="curso">
+        <option value="Escolher" disabled>Escolha</option>
+        <option value="ETSI">Engenharia Informatica</option>
+        <option value="RID">Relacoes Internacionais</option>
+        <option value="EN">Economia e Negocios</option>
+        <option value="AP">Administracao publica</option>
+    </select>
+    <br><br>
+     <label for="birthday">ano de nascimento</label>
+
+    <input type="datetime" id="" name="" placeholder="nascimento" required><br><br>
+
+    <label for="">E-mail</label>
+    <input type="email" id="" name="" placeholder="" required><br><br>
+    <br><br>
+    <label for="Codigo">Codigo de Estudante</label>
+    <input type="number" id="code" name="codigo" placeholder="codigo" required><br><br>
+
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <input type="submit" value="Entrar">        
+
+
+</form>
+    
+</body>
+  
+
+
+</html>
